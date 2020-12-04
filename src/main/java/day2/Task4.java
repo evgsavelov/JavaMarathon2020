@@ -10,12 +10,11 @@ public class Task4 {
 
         if (x >= 5) {
             y = (x*x - 10) / (x + 7);
-            System.out.println(y);
         } else if (x > -3 && x < 5) {
             y = (x + 3) * (x * x - 2);
-            System.out.println(y);
         } else {
-            System.out.println("420.0");
+            y = 420.0;
         }
+        System.out.println(y);
     }
 }
